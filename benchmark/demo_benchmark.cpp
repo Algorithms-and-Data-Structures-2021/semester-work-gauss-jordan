@@ -6,10 +6,9 @@
 #include <sstream>      // stringstream
 
 // подключаем вашу структуру данных
-#include "data_structure.hpp"
+#include "gauss_jordan_method.hpp"
 
 using namespace std;
-using namespace itis;
 
 // абсолютный путь до набора данных и папки проекта
 static constexpr auto kDatasetPath = string_view{PROJECT_DATASET_DIR};
